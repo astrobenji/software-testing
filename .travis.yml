@@ -1,6 +1,7 @@
 sudo: required
 dist: xenial
 language: python
+CODECOV_TOKEN: "51aee155-e4bd-4dd4-87da-5be2301b5838"
 
 notifications:
   email:
