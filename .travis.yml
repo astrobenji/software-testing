@@ -1,6 +1,6 @@
 sudo: required
 dist: xenial
-language: python 
+language: python
 
 notifications:
   email:
@@ -16,7 +16,7 @@ matrix:
     - os: linux
       python: 3.6.5 # Should be a string version, e.g., "2.7".  DON'T ACTUALLY TEST 2.7 though!
 
-    - os: osx 
+    - os: osx
       python: 3.6.5 # Should be a string version, e.g., "2.7".  DON'T ACTUALLY TEST 2.7 though!
       osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
       language: generic # 'language: python' is an error on Travis CI macOS
@@ -36,4 +36,4 @@ script:
 # If all the tests passed, update `codecov`. Ensures your coverage is ALWAYS relevant.
 # Comment out these lines once Travis is working and you have Codecov linked to GitHub.
 after_success:
-  - codecov 
+  - codecov
