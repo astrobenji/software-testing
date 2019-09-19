@@ -8,9 +8,9 @@ Here to test that the (i) chi-square of rates, (ii)
 '''
 
 import numpy as np
-import astropy.units as u
-from astropy.cosmology import FlatLambdaCDM
-import matplotlib.pyplot as plt
+#import astropy.units as u
+#from astropy.cosmology import FlatLambdaCDM
+#import matplotlib.pyplot as plt
 
 __author__ = ['Benjamin Metha', ]
 __date__ = '2019-09-19'
