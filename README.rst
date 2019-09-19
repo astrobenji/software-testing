@@ -82,6 +82,6 @@ Adjust the URLs here to point to your own Travis badge!
 
 .. code:: rst
 
-  .. |TRAVIS| image:: https://travis-ci.com/jacobseiler/software-testing.svg?token=5c6Q56fcBuVVhRGKosZB&branch=master
+  |TRAVIS| image:: https://travis-ci.com/jacobseiler/software-testing.svg?token=5c6Q56fcBuVVhRGKosZB&branch=master
     :alt: Travis Badge
     :target: https://travis-ci.com/jacobseiler/software-testing
